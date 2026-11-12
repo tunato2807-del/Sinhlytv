@@ -25,7 +25,8 @@ Báo cáo chèn nguyên ảnh, giữ tỷ lệ, tối đa hai ảnh một trang 
 ## Ghi chú dùng cho tiểu luận
 
 - Số cân trong CSV được đọc từ màn hình của từng ảnh, đơn vị g. Đây là số hiển thị, chưa phải kết quả tính toán hoặc số liệu đã hiệu chỉnh.
-- Chưa xác nhận tên loài, mã mẫu, số lá trên đĩa cân hoặc cặp lá–mẫu giấy tương ứng. Không ghép cặp các ảnh để tính diện tích trước khi xác nhận.
+- Tên cây được bổ sung theo danh sách nhóm cung cấp, đối chiếu chữ ghi trên mẫu giấy và hình dạng mẫu. Mã mẫu thống nhất trong Word, danh mục ảnh và [bảng số liệu 3.1](bang-3-1-so-lieu-la.csv): M01 Xà cừ; M02 Muồng hoàng yến; M03 Muồng ràng ràng; M04 Giáng hương quả to; M05 Keo lá tràm. Các cột `ma_mau` và `ten_cay` trong danh mục chỉ rõ liên kết này.
 - Ảnh `C3-21` hiển thị nhiều tờ giấy trên cân và số `2.530 g`; chưa xác nhận số tờ hoặc diện tích giấy chuẩn.
+- Nhóm chưa biết tổng diện tích bộ giấy chuẩn; do đó `S0_tong_bo_giay_cm2` và `S_la_cm2` để trống. Không suy đoán kích thước giấy từ ảnh. Biểu thức diện tích trong Word chỉ áp dụng khi dùng đúng tổng diện tích của bộ giấy 2,530 g và giấy hình lá cùng định lượng.
 - Chưa trích số đo chiều dài/chiều rộng từ ảnh thước để tránh ghi số liệu chưa xác minh.
 - Một số ảnh cân là ảnh chụp màn hình có giao diện ứng dụng. Nếu cần cắt khung để đưa vào bài, tạo bản riêng trong `anh-chen-bai/`, giữ nguyên ảnh gốc và toàn bộ phần số cân/thước cần làm bằng chứng.

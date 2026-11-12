@@ -1,27 +1,26 @@
 # Tư liệu ảnh Chương 3
 
-Danh mục chuẩn bị cho các ảnh đo kích thước lá, mẫu giấy theo hình lá và cân khối lượng, phục vụ chèn hình vào bài tiểu luận.
+Tư liệu ảnh đo kích thước lá, mẫu giấy theo hình lá và cân khối lượng, phục vụ bài tiểu luận.
 
-**Trạng thái: đã lập danh mục từ 21 ảnh hiển thị trong hội thoại; chưa lưu tệp ảnh vào kho.** Cần bổ sung tệp ảnh đính kèm ở dạng tải xuống được để hoàn thành việc lưu trữ.
+**Đã lưu đủ 21 ảnh từ tệp `ảnh.zip` và chèn vào Chương 3 của [báo cáo Word](../bao-cao/Bao_cao_tieu_luan_SLTV.docx).**
 
 ## Danh mục
 
-Xem `danh-muc-anh.csv`. Mã `C3-01` đến `C3-21` theo đúng thứ tự ảnh trong tin nhắn, không phải số hình chính thức trong tiểu luận. Các tên trong cột `ten_co_so_du_kien` là tên dự kiến, chưa phải đường dẫn tới ảnh có sẵn.
+Xem [danh-muc-anh.csv](danh-muc-anh.csv). Mã `C3-01` đến `C3-21` thống nhất với thứ tự ảnh đã gửi trong hội thoại và chú thích trong Word. Cột `duong_dan_anh` chứa đường dẫn thực tế tính từ thư mục này; `tep_nguon_trong_zip` lưu tên tệp nguồn; `sha256` dùng để đối chiếu nội dung. Cột `ten_co_so_du_kien` giữ lại tên cơ sở đã chuẩn bị trước khi nhận ZIP.
 
-| Nhóm | Số ảnh | Thư mục dự kiến |
+| Nhóm | Số ảnh | Thư mục |
 | --- | ---: | --- |
-| Đo lá với thước | 5 | `anh-goc/do-la/` |
-| Đo mẫu giấy theo hình lá | 5 | `anh-goc/do-mau-giay/` |
-| Cân lá | 5 | `anh-goc/can-la/` |
-| Cân mẫu giấy theo hình lá | 5 | `anh-goc/can-mau-giay/` |
-| Cân các tờ giấy | 1 | `anh-goc/can-giay/` |
+| Đo lá với thước | 5 | [do-la](anh-goc/do-la/) |
+| Đo mẫu giấy theo hình lá | 5 | [do-mau-giay](anh-goc/do-mau-giay/) |
+| Cân lá | 5 | [can-la](anh-goc/can-la/) |
+| Cân mẫu giấy theo hình lá | 5 | [can-mau-giay](anh-goc/can-mau-giay/) |
+| Cân các tờ giấy | 1 | [can-giay](anh-goc/can-giay/) |
 
-## Khi bổ sung ảnh
+## Lưu trữ và chèn ảnh
 
-1. Nhận các tệp JPG/PNG hoặc ZIP chứa ảnh. Đối chiếu nội dung với thứ tự và mô tả trong danh mục, không chỉ dựa vào thứ tự tệp trong ZIP.
-2. Giữ nguyên nội dung, độ phân giải và định dạng ảnh nhận được. Dùng tên cơ sở dự kiến cùng phần mở rộng đúng với định dạng thực tế; không chuyển đổi ảnh để đổi đuôi tệp.
-3. Kiểm tra mỗi ảnh mở được, đủ 21 ảnh và không trùng tệp. Cập nhật danh mục bằng đường dẫn thực tế, tên tệp nguồn và trạng thái đã lưu.
-4. Lưu ảnh gốc cùng danh mục lên GitHub, rồi kiểm tra commit từ kho từ xa trước khi báo hoàn tất.
+Các ảnh được đối chiếu nội dung với danh mục, giữ nguyên định dạng JPG, độ phân giải và toàn bộ dữ liệu tệp nhận được. Chỉ đổi tên để dễ quản lý; mã băm được kiểm tra khớp với từng tệp trong ZIP. Cả 21 tệp mở được và có mã băm khác nhau.
+
+Báo cáo chèn nguyên ảnh, giữ tỷ lệ, tối đa hai ảnh một trang để đọc thước và số cân; không cắt phần số đo hoặc giao diện ảnh chụp màn hình. Hai ảnh minh họa có sẵn trong mẫu Word vẫn được ghi nguồn riêng ở Chương 2.
 
 ## Ghi chú dùng cho tiểu luận
 

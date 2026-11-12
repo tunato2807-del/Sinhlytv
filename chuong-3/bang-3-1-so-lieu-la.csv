@@ -1,6 +1,6 @@
-ma_mau,ten_cay,dai_la_cm,rong_la_cm,dai_giay_cm,rong_giay_cm,m_la_g,m_hinh_giay_g,m_bo_giay_chuan_g,S0_tong_bo_giay_cm2,S_la_cm2,anh_do_la,anh_do_giay,anh_can_la,anh_can_giay,anh_can_bo_giay_chuan,ten_anh_la_trong_file_ket_qua,ten_anh_giay_trong_file_ket_qua
-M01,Xà cừ,14.4,4.7,14.4,4.8,1.056,0.427,2.530,,,C3-10,C3-07,C3-15,C3-16,C3-21,6233.jpg,6234.jpg
-M02,Muồng hoàng yến,14.5,7.0,14.5,6.8,0.787,0.539,2.530,,,C3-06,C3-05,C3-19,C3-20,C3-21,6216.jpg,6226.jpg
-M03,Muồng ràng ràng,3.4,2.2,3.5,2.2,0.088,0.045,2.530,,,C3-02,C3-09,C3-11,C3-12,C3-21,6229.jpg,6230.jpg
-M04,Giáng hương quả to,10.6,6.8,10.5,6.7,0.802,0.444,2.530,,,C3-04,C3-08,C3-17,C3-18,C3-21,6227.jpg,6228.jpg
-M05,Keo lá tràm,15.2,1.9,14.2,2.0,0.401,0.147,2.530,,,C3-03,C3-01,C3-13,C3-14,C3-21,6231.jpg,6232.jpg
+ma_mau,ten_cay,dai_la_cm,rong_la_cm,S0_bao_la_cm2,dai_giay_cm,rong_giay_cm,S0_bao_hinh_giay_cm2,chenh_dai_giay_tru_la_cm,chenh_rong_giay_tru_la_cm,chenh_S0_bao_phan_tram,m_la_g,m_hinh_giay_g,m_bo_giay_chuan_g,S_giay_chuan_cm2,S_phien_la_can_giay_cm2,anh_do_la,anh_do_giay,anh_can_la,anh_can_giay,anh_can_bo_giay_chuan
+M01,Xà cừ,14.4,4.7,67.68,14.4,4.8,69.12,0.0,0.1,2.127659574468085106382978723,1.056,0.427,2.530,,,C3-10,C3-07,C3-15,C3-16,C3-21
+M02,Muồng hoàng yến,14.5,7.0,101.50,14.5,6.8,98.60,0.0,-0.2,-2.857142857142857142857142857,0.787,0.539,2.530,,,C3-06,C3-05,C3-19,C3-20,C3-21
+M03,Muồng ràng ràng,3.4,2.2,7.48,3.5,2.2,7.70,0.1,0.0,2.941176470588235294117647059,0.088,0.045,2.530,,,C3-02,C3-09,C3-11,C3-12,C3-21
+M04,Giáng hương quả to,10.6,6.8,72.08,10.5,6.7,70.35,-0.1,-0.1,-2.400110987791342952275249723,0.802,0.444,2.530,,,C3-04,C3-08,C3-17,C3-18,C3-21
+M05,Keo lá tràm,15.2,1.9,28.88,14.2,2.0,28.40,-1.0,0.1,-1.662049861495844875346260388,0.401,0.147,2.530,,,C3-03,C3-01,C3-13,C3-14,C3-21
